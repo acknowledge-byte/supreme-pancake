@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <title>Python</title>
+
+        <!---->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+        <!---->
+        <script>
+            function preventReload(event){
+                event.preventDefault();
+        }
+        </script>
+    </head>
+    <body>  
+        <h3>Flask Local Server</h3>
+        <form onsubmit="preventReload(event)">
+            <input type="text" id="username_in">
+        </form>
+        <div id="container-a">
+            <p id="username_val"></p>
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>

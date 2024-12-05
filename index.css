@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(to bottom, #355070, 
+    #6d597a, #b56576, #e56b6f, #eaac8b);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0;
+}
+
+*{
+    user-select: none;
+}
+h3{
+    font-family: Parkinsans;
+    font-weight: 100;
+    font-size: 2em;
+}
+
+#username_in{
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    font-size: 1em;
+    margin: 0;
+}
+
+#username_in:focus{
+    outline: none;
+}
+
+#username_val{
+    font-family: Quicksand;
+}
+#container-a{
+    margin-bottom: 20px;
+}
